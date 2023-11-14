@@ -39,6 +39,13 @@ body {
 
     }
 }
+.button-purple:hover{
+    background:  linear-gradient(180deg, rgba(255, 255, 255, 0.20) 0%, rgba(74, 49, 141, 0.20) 100%), linear-gradient(91deg, #C63CB2 3.87%, #194EBF 111.36%);
+    box-shadow: 0px 8px 16px 0px rgba(4, 0, 199, 0.50);
+}
+.button-purple:focus, .button-purple:active{
+    background: linear-gradient(91deg, #BC38A9 3.87%, #15409C 111.36%);
+}
 
 .stocks__wrapper {
     display: grid;
@@ -65,7 +72,7 @@ body {
 
     @media (max-width: 600px) {
         padding: 16px 12px;
-        height: 277px;
+        height: 277px !important;
         width: 100%;
     }
 }
@@ -137,7 +144,7 @@ body {
     font-weight: 400;
     max-width: 429px;
     @media (max-width: 600px) {
-        margin-bottom: 10px;
+        margin-bottom: 8%;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -419,7 +426,6 @@ span.stocks__advantages-item-p5 {
     background-color: #fff;
     box-shadow: 0 8px 16px 0 rgba(44, 35, 99, 0.06);
     border-radius: 8px;
-    overflow: hidden;
 
     @media (max-width: 1050px) {
         max-width: 365px;
@@ -428,13 +434,19 @@ span.stocks__advantages-item-p5 {
     }
     @media (max-width: 700px) {
         max-width: 100%;
+        width: 290px;
     }
 }
+
 .franchise_item .photo_link {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    border-top-left-radius:  8px;
+    border-top-right-radius:  8px;
+;
 }
 .franchise_item .text_cont {
     width: 100%;
@@ -471,6 +483,7 @@ span.stocks__advantages-item-p5 {
     margin-bottom: 8px;
 }
 .franchise_item .bottom_area .right {
+    position: relative;
     justify-content: end;
     gap: 10px;
     max-width: 130px;
@@ -479,6 +492,15 @@ span.stocks__advantages-item-p5 {
         max-width: 100%;
     }
 
+}
+.franchise_item_hint{
+    display: none;
+    position: absolute;
+    top: 34px;
+    right: -51px;
+}
+.franchise_item_hint.hovered{
+    display: block;
 }
 .franchise_item .bottom_area .left-info span {
     color: #686868;
@@ -518,7 +540,7 @@ span.stocks__advantages-item-p5 {
     align-items: center;
     gap: 10px;
     border-radius: 8px;
-    background: #AED1F2;
+    background: linear-gradient(180deg, #DEF 0%, #C8E1F8 100%);
     border: none;
     color: #4582EF;
     font-size: 17px;
@@ -528,6 +550,15 @@ span.stocks__advantages-item-p5 {
         width: 100%;
     }
 }
+.franchise_item__button:focus, .franchise_item__button:active{
+    background: #B3DAFF;
+}
+.franchise_item__button:hover{
+    border-radius: 8px;
+    background: linear-gradient(180deg, #E5F3FF 0%, #CEE7FF 100%);
+    box-shadow: 0 4px 10px 0 rgba(67, 175, 253, 0.17);
+}
+
 .franchise_item .bottom_area span.left-info-pink{
     color: #C055B9;
     font-size: 15px;
@@ -689,6 +720,13 @@ span.stocks__advantages-item-p5 {
         width: 100%;
     }
 
+}
+.actions_button:focus, actions_button:active{
+    background: #EB520F;
+}
+.actions_button:hover{
+    background: linear-gradient(180deg, #FF905F 0%, #FC7337 100%);
+    box-shadow: 0px 4px 8px 0px rgba(221, 95, 41, 0.25);
 }
 .actions_p_item2 {
     color: #023D7F;
