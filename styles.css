@@ -887,6 +887,9 @@ span.stocks__advantages-item-p5 {
     }
 
 }
+.popup__form input:focus-visible, .popup__form-input:focus-visible{
+    outline: none;
+}
 .popup__form-input::placeholder{
     color: #8C8C8C;
     font-size: 17px;
