@@ -883,7 +883,8 @@ span.stocks__advantages-item-p5 {
     border: none;
     height: 45px;
     @media (max-width: 426px) {
-        padding: 1px 16px;
+        height: 49px;
+        padding: 5px 16px;
     }
 
 }
