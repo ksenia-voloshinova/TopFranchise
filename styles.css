@@ -70,13 +70,14 @@ body {
     font-size: 28px;
     border-radius: 8px;
     line-height: 120%;
-    display: flex;
+    display: flex !important;
     flex-direction: column;
 
+    justify-content: space-between;
 
     @media (max-width: 600px) {
         padding: 16px 12px;
-        height: 277px !important;
+        height: 306px !important;
         width: 100%;
     }
 }
@@ -148,7 +149,6 @@ body {
     font-weight: 400;
     max-width: 429px;
     @media (max-width: 600px) {
-        margin-bottom: 8%;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -815,6 +815,9 @@ span.stocks__advantages-item-p5 {
     top: 20%;
     visibility: visible;
     opacity: 1;
+    @media (max-width: 800px) {
+        top: 11%;
+    }
 }
 .close {
     position: absolute;
