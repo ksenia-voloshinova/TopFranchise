@@ -164,6 +164,9 @@ span.stocks__advantages-item-p5 {
 }
 .stocks__advantages-item-p6 span{
     text-decoration-line: underline;
+    @media (max-width: 600px) {
+        text-decoration-line: none ;
+    }
 }
 .stocks__advantages-item-p7{
     max-width: 290px;
