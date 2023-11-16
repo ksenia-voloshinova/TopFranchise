@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-
 </head>
 <body>
     <main class="main">
@@ -27,9 +26,9 @@
                             </div>
                             <div class="stocks__advantages-item item2">
                                 <div class="stocks__wrapp-flex">
-                                    <p class="stocks__advantages-item-p3 fs-32">Лучшее вложение </p>
-                                    <p class="stocks__advantages-item-p3"> с учетом текущей экономической ситуации - </p>
-                                    <p class="stocks__advantages-item-p3 fs-28"> магазин фиксированных цен</p>
+                                    <p class="stocks__advantages-item2-p item2-p1">Лучшее вложение </p>
+                                    <p class="stocks__advantages-item2-p"> с учетом текущей экономической ситуации - </p>
+                                    <p class="stocks__advantages-item2-p item2-p3"> магазин фиксированных цен</p>
                                     <p class="stocks__advantages-item-p4">Наши менеджеры простым языком расскажут все выявленные в процессе проверки плюсы </p>
                                 </div>
                                <a href="#win1" class="button-purple">Узнать больше</a>
@@ -64,7 +63,7 @@
                 <div id="franchises-wrapper" class="franchises-wrapper">
                     <div class="franchise_item">
                         <a href="/landing-page/championika_zenit/" class="photo_link">
-                            <img alt="Франшиза Зенит-Чемпионика" title="Франшиза Зенит-Чемпионика" width="373" height="210" class="photo" src="./img/franchise-item1.jpg">
+                            <img alt="Франшиза Зенит-Чемпионика" title="Франшиза Зенит-Чемпионика" class="photo" src="./img/franchise-item1.jpg">
                         </a>
                         <div class="text_cont">
                             <a href="/landing-page/championika_zenit/" class="link_text">
@@ -103,7 +102,7 @@
                     </div>
                     <div class="franchise_item">
                         <a href="/landing-page/championika_zenit/" class="photo_link">
-                            <img alt="Франшиза Зенит-Чемпионика" title="Франшиза Зенит-Чемпионика" width="373" height="210" class="photo" src="./img/franchise-item2.jpg">
+                            <img alt="Франшиза Зенит-Чемпионика" title="Франшиза Зенит-Чемпионика" class="photo" src="./img/franchise-item2.jpg">
                         </a>
                         <div class="text_cont">
                             <a href="/landing-page/championika_zenit/" class="link_text">
@@ -142,7 +141,7 @@
                     </div>
                     <div class="franchise_item">
                         <a href="/landing-page/championika_zenit/" class="photo_link">
-                            <img alt="Франшиза Зенит-Чемпионика" title="Франшиза Зенит-Чемпионика" width="373" height="210" class="photo" src="./img/franchise-item3.jpg">
+                            <img alt="Франшиза Зенит-Чемпионика" title="Франшиза Зенит-Чемпионика" class="photo" src="./img/franchise-item3.jpg">
                         </a>
                         <div class="text_cont">
                             <a href="/landing-page/championika_zenit/" class="link_text">
@@ -181,7 +180,7 @@
                     </div>
                     <div class="franchise_item">
                         <a href="/landing-page/championika_zenit/" class="photo_link">
-                            <img alt="Франшиза Зенит-Чемпионика" title="Франшиза Зенит-Чемпионика" width="373" height="210" class="photo" src="./img/franchise-item4.jpg">
+                            <img alt="Франшиза Зенит-Чемпионика" title="Франшиза Зенит-Чемпионика" class="photo" src="./img/franchise-item4.jpg">
                         </a>
                         <div class="text_cont">
                             <a href="/landing-page/championika_zenit/" class="link_text">
@@ -220,7 +219,7 @@
                     </div>
                     <div class="franchise_item">
                         <a href="/landing-page/championika_zenit/" class="photo_link">
-                            <img alt="Франшиза Зенит-Чемпионика" title="Франшиза Зенит-Чемпионика" width="373" height="210" class="photo" src="./img/franchise-item5.jpg">
+                            <img alt="Франшиза Зенит-Чемпионика" title="Франшиза Зенит-Чемпионика" class="photo" src="./img/franchise-item5.jpg">
                         </a>
                         <div class="text_cont">
                             <a href="/landing-page/championika_zenit/" class="link_text">
@@ -259,7 +258,7 @@
                     </div>
                     <div class="franchise_item">
                         <a href="/landing-page/championika_zenit/" class="photo_link">
-                            <img alt="Франшиза Зенит-Чемпионика" title="Франшиза Зенит-Чемпионика" width="373" height="210" class="photo" src="./img/franchise-item6.jpg">
+                            <img alt="Франшиза Зенит-Чемпионика" title="Франшиза Зенит-Чемпионика" class="photo" src="./img/franchise-item6.jpg">
                         </a>
                         <div class="text_cont">
                             <a href="/landing-page/championika_zenit/" class="link_text">
@@ -340,9 +339,14 @@
             </h2>
             <form class="popup__form">
                 <input class="popup__form-input" type="text" id="fio" name="fio" placeholder="ФИО">
-                <div class=" popup__form-input wrapp__input">
-                    <input  class="popup__form-input-city" type="text" id="city" name="city" placeholder="Город">
-                    <button  class="button-form-city" type="button">Изменить</button>
+                <div class=" popup__form-input wrapp__select">
+                    <select class="popup__form-select" id="citySelect">
+                        <option value="moscow">Москва</option>
+                        <option value="stpetersburg">Санкт-Петербург</option>
+                        <option value="novosibirsk">Новосибирск</option>
+                        <option value="ekaterinburg">Екатеринбург</option>
+                        <option value="kazan">Казань</option>
+                    </select>
                 </div>
                 <input  class="popup__form-input" type="email" id="mail" name="mail" placeholder="Email">
                 <div class="popup__form-input wrapp__input__phone">
@@ -354,7 +358,7 @@
                     <input type="tel" id="phone" name="phone">
                 </div>
 
-                <textarea placeholder="Отчет по какой франшизе вас интересует?" class="popup__form-input" rows="1" id="message" name="message" ></textarea>
+                <textarea placeholder="Отчет по какой франшизе вас интересует?" class="popup__form-input textarea" rows="1" id="message" name="message" ></textarea>
 
                 <a  href="#win2" class="popup__form__button" type="submit">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">

@@ -3,18 +3,19 @@ $(document).ready(function(){
         dots: true,
         prevArrow: false,
         nextArrow: '<button class="next-btn"><img src="./img/right-arrow.svg"></button>',
+        autoplay: true,
+        autoplaySpeed: 1500,
+
     });
 });
 function moveElement() {
     if (window.matchMedia("(max-width: 600px)").matches) {
         const element = document.getElementById("actionsBlock1");
         const container = document.getElementById("franchises-wrapper");
-
         container.appendChild(element);
     } else {
         const element = document.getElementById("actionsBlock1");
         const originalContainer = document.getElementById("actions_wrapp_blocks");
-
         originalContainer.appendChild(element);
     }
 }
@@ -25,7 +26,7 @@ window.addEventListener("resize", moveElement);
 
 
 function addHoverEffect(element) {
-    const childElement = element.querySelector('.franchise_item_hint'); // замените '.yourChildElement' на селектор вашего дочернего элемента
+    const childElement = element.querySelector('.franchise_item_hint');
     element.addEventListener('mouseover', function() {
         childElement.classList.add('hovered');
     });
@@ -34,19 +35,8 @@ function addHoverEffect(element) {
     });
 }
 
-const elementsArray = document.querySelectorAll('.right'); // замените '.yourElements' на селектор, который выберет ваши элементы
+const elementsArray = document.querySelectorAll('.right');
 
 elementsArray.forEach(function(element) {
     addHoverEffect(element);
 });
-
-document.querySelectorAll('.franchise_item_hint').addEventListener('click', (e)=>{
-    console.log(e.target.dataset.itemid);
-})
-
-
-
-
-
-
-

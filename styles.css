@@ -2,18 +2,6 @@ body {
     color: #242731;
     font-family: 'Source Sans Pro', sans-serif;
 }
-
-.main {
-
-}
-
-.section-stocks {
-    padding: 65px 0;
-    @media (max-width: 1060px) {
-        padding: 15px 0;
-    }
-}
-
 .container {
     max-width: 1160px;
     margin: auto;
@@ -24,33 +12,38 @@ body {
 
 .button-purple {
     display: block;
+    padding: 16px 40px;
+    border-radius: 8px;
+    border: none;
+    background:  linear-gradient(180deg, rgba(255, 255, 255, 0.20) 0%, rgba(74, 49, 141, 0.20) 100%), linear-gradient(91deg, #C63CB2 3.87%, #194EBF 111.36%);
     line-height: normal;
     text-align: center;
     color: #FFF;
     text-decoration: none;
     font-size: 24px;
     font-weight: 600;
-    border-radius: 8px;
-    background:  linear-gradient(180deg, rgba(255, 255, 255, 0.20) 0%, rgba(74, 49, 141, 0.20) 100%), linear-gradient(91deg, #C63CB2 3.87%, #194EBF 111.36%);
-    border: none;
-    padding: 16px 40px;
     @media (max-width: 1060px) {
         font-size: 17px;
-
     }
     @media (max-width: 600px) {
         width: 100%;
-
     }
 }
 .button-purple:hover{
     background:  linear-gradient(180deg, rgba(255, 255, 255, 0.20) 0%, rgba(74, 49, 141, 0.20) 100%), linear-gradient(91deg, #C63CB2 3.87%, #194EBF 111.36%);
-    box-shadow: 0px 8px 16px 0px rgba(4, 0, 199, 0.50);
+    box-shadow: 0 8px 16px 0 rgba(4, 0, 199, 0.50);
 }
 .button-purple:focus, .button-purple:active{
     background: linear-gradient(91deg, #BC38A9 3.87%, #15409C 111.36%);
 }
 
+/*----------------SECTION STOCKS---------------*/
+.section-stocks {
+    padding: 65px 0;
+    @media (max-width: 1060px) {
+        padding: 15px 0;
+    }
+}
 .stocks__wrapper {
     display: grid;
     grid-template-columns: 57% 43%;
@@ -60,20 +53,14 @@ body {
         gap: 19px;
     }
 }
-
-.stocks__advantages-slides {
-
-}
-
 .stocks__advantages-item {
-    padding: 60px 30px 80px;
-    font-size: 28px;
-    border-radius: 8px;
-    line-height: 120%;
     display: flex !important;
     flex-direction: column;
-
     justify-content: space-between;
+    padding: 60px 30px 80px;
+    border-radius: 8px;
+    font-size: 28px;
+    line-height: 120%;
 
     @media (max-width: 600px) {
         padding: 16px 12px;
@@ -81,57 +68,50 @@ body {
         width: 100%;
     }
 }
-
 .stocks__advantages-item-heading {
-    line-height: 120%;
+    margin-bottom: 26px;
     font-size: 49px;
     font-style: normal;
     font-weight: 600;
-    margin-bottom: 26px;
+    line-height: 120%;
     @media (max-width: 600px) {
         font-size: 20px;
         margin-bottom: 5px;
-
     }
 }
-
 .stocks__advantages-item-heading span {
-    text-transform: uppercase;
     color: #4A59BE;
     font-size: 49px;
     font-style: normal;
     font-weight: 700;
+    text-transform: uppercase;
     line-height: 120%;
     @media (max-width: 600px) {
         font-size: 24px;
     }
 }
-
 .stocks__advantages-item-p1 {
-    font-size: 28px;
     margin-bottom: 16px;
+    font-size: 28px;
     @media (max-width: 600px) {
-        font-size: 20px;
         margin-bottom: 12px;
+        font-size: 20px;
     }
-
 }
-
 .stocks__advantages-item-p2 {
-    font-size: 24px;
     margin-bottom: 47px;
-    color: #4A59BE;
+    font-size: 24px;
     font-weight: 900;
+    color: #4A59BE;
     @media (max-width: 600px) {
-        font-size: 18px;
-        max-width: 140px;
         margin-bottom: 30px;
+        max-width: 140px;
+        font-size: 18px;
         font-weight: 900;
         line-height: 120%;
-
     }
 }
-.stocks__advantages-item-p3{
+.stocks__advantages-item2-p{
     color: #4A59BE;
     font-size: 22px;
     font-weight: 600;
@@ -139,15 +119,14 @@ body {
     @media (max-width: 600px) {
         font-size: 18px;
         line-height: 110%;
-
     }
 
 }
 .stocks__advantages-item-p4{
     margin-bottom: 38px;
+    max-width: 429px;
     font-size: 22px;
     font-weight: 400;
-    max-width: 429px;
     @media (max-width: 600px) {
         font-size: 16px;
         font-style: normal;
@@ -156,70 +135,63 @@ body {
     }
 }
 span.stocks__advantages-item-p5 {
+    margin-bottom: 0;
     @media (max-width: 600px) {
         display: none;
     }
 }
 .stocks__advantages-item-p5{
+    margin-bottom: 18px;
     color: #4A59BE;
     font-size: 40px;
     font-weight: 700;
-    margin-bottom: 18px;
     line-height: 130%;
     @media (max-width: 600px) {
-        font-size: 24px;
         margin-bottom: 8px;
-
+        font-size: 24px;
     }
-
 }
-
 .stocks__advantages-item-p6{
+    margin-bottom: 15px;
     max-width: 321px;
     font-size: 28px;
     font-weight: 600;
-    margin-bottom: 15px;
     @media (max-width: 600px) {
-        font-size: 20px;
         margin-bottom: 8px;
+        font-size: 20px;
         line-height: 110%;
     }
-
-
 }
 .stocks__advantages-item-p6 span{
     text-decoration-line: underline;
 }
 .stocks__advantages-item-p7{
     max-width: 290px;
+    margin-bottom: 37px;
     font-size: 28px;
     font-weight: 400;
-    margin-bottom: 37px;
     @media (max-width: 600px) {
+        margin-bottom: 55px;
         font-size: 18px;
         line-height: 120%;
-        margin-bottom: 55px;
     }
 
 }
-.stocks__advantages-item-p3.fs-32{
+.stocks__advantages-item2-p.item2-p1{
     text-transform: uppercase;
     font-weight: 700;
     font-size: 32px;
     @media (max-width: 600px) {
+        margin-bottom: 3px;
         font-size: 24px;
         line-height: 110%;
-        margin-bottom: 3px;
-
     }
-
 }
-.stocks__advantages-item-p3.fs-28{
-    text-transform: uppercase;
+.stocks__advantages-item2-p.item2-p3{
     font-size: 28px;
     line-height: 150%;
     font-weight: 600;
-
+    text-transform: uppercase;
     @media (max-width: 600px) {
         margin-top: 5px;
         margin-bottom: 8px;
@@ -228,9 +200,8 @@ span.stocks__advantages-item-p5 {
         font-weight: 600;
         line-height: 110%;
     }
-
-
 }
+
 .stocks__discounts-cards {
     display: flex;
     flex-direction: column;
@@ -238,25 +209,20 @@ span.stocks__advantages-item-p5 {
     @media (max-width: 1060px) {
         gap: 16px;
     }
-
 }
-
 .stocks__discounts-card {
+    width: 465px;
     padding: 22px;
     border-radius: 8px;
-    width: 465px;
     font-size: 24px;
     font-weight: 600;
     @media (max-width: 1060px) {
-        grid-template-columns: 100%;
         align-self: center;
-
     }
     @media (max-width: 600px) {
-        padding: 16px;
         width: 100%;
+        padding: 16px;
         font-size: 20px;
-
     }
 }
 .stocks__discounts-card span{
@@ -265,7 +231,6 @@ span.stocks__advantages-item-p5 {
     font-weight: 700;
     @media (max-width: 600px) {
         font-size: 40px;
-
     }
 }
 .stocks__discounts-card p{
@@ -289,7 +254,6 @@ span.stocks__advantages-item-p5 {
     @media (max-width: 600px) {
         padding: 16px 12px;
         background-image: url("./img/bgItemMob3.jpg");
-
     }
 }
 .stocks__advantages-item.item2 {
@@ -300,7 +264,6 @@ span.stocks__advantages-item-p5 {
     @media (max-width: 600px) {
         padding: 16px 12px;
         background-image: url("./img/bgItemMob2.jpg");
-
     }
 }
 .stocks__advantages-item.item3 {
@@ -309,42 +272,39 @@ span.stocks__advantages-item-p5 {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 40px 30px 66px ;
-
     @media (max-width: 600px) {
         padding: 16px 12px;
     }
     @media (max-width: 500px) {
         background-image: url("./img/bgItemMob1.jpg");
-
     }
 }
-
 .stocks__discounts-card.card1 {
     background-image: url("./img/bgItem4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .stocks__discounts-card.card2 {
     background-image: url("./img/bgItem5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+/*----------------SLIDER---------------*/
 .slick-dots {
-    text-align: center;
     display: flex;
     justify-content: center;
+    text-align: center;
     list-style: none;
 }
 .slick-dots button {
+    height: 14px;
+    width: 14px;
+    margin: 5px;
     font-size:0;
     background: #EAEAEA;
     border: none;
     border-radius: 50%;
-    height: 14px;
-    width: 14px;
-    margin: 5px;
     outline: none;
 }
 .slick-dots li[class="slick-active"] button {
@@ -365,6 +325,7 @@ span.stocks__advantages-item-p5 {
 .next-btn {
     position: absolute;
     top: 50%;
+    right: 7px;
     transform: translateY(-50%);
     width: 57px;
     height: 57px;
@@ -381,7 +342,9 @@ span.stocks__advantages-item-p5 {
         width: 32px;
         height: 32px;
     }
-
+}
+.next-btn:hover {
+    background: #fff;
 }
 .next-btn img{
     @media (max-width: 600px) {
@@ -390,35 +353,19 @@ span.stocks__advantages-item-p5 {
     }
 }
 
-.prev-btn {
-    display: none;
-    left: 0;
+/*----------------SECTION FRANCHISES---------------*/
 
-}
-
-.next-btn {
-    right: 7px;
-}
-.next-btn:hover {
-    background: #fff;
-
-}
-
-
-.section-franchises{
-
-}
 .franchises-wrapper{
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 100%;
     gap: 30px;
     @media (max-width: 1050px) {
         grid-template-columns: 1fr 1fr;
         margin-bottom: 15px;
         justify-content: center;
+        align-items: center;
         gap: 15px;
-
     }
     @media (max-width: 770px) {
         grid-template-columns: 1fr;
@@ -429,27 +376,26 @@ span.stocks__advantages-item-p5 {
     background-color: #fff;
     box-shadow: 0 8px 16px 0 rgba(44, 35, 99, 0.06);
     border-radius: 8px;
-
+    margin: auto;
+    overflow: hidden;
     @media (max-width: 1050px) {
         max-width: 365px;
-        justify-self: center;
-
     }
     @media (max-width: 700px) {
         max-width: 100%;
         width: 290px;
     }
 }
-
 .franchise_item .photo_link {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
     border-top-left-radius:  8px;
     border-top-right-radius:  8px;
-;
+}
+.franchise_item .photo{
+    width: 100%;
 }
 .franchise_item .text_cont {
     width: 100%;
@@ -461,7 +407,6 @@ span.stocks__advantages-item-p5 {
     flex-direction: column;
     align-items: flex-start;
     text-decoration: none;
-
 }
 .franchise_item .bottom_area {
     width: 100%;
@@ -485,6 +430,9 @@ span.stocks__advantages-item-p5 {
     justify-content: center;
     margin-bottom: 8px;
 }
+.invest{
+    font-size: 18px;
+}
 .franchise_item .bottom_area .right {
     position: relative;
     justify-content: end;
@@ -493,20 +441,6 @@ span.stocks__advantages-item-p5 {
     @media (max-width: 700px) {
         width: 100%;
         max-width: 100%;
-    }
-
-}
-.franchise_item_hint{
-    display: none;
-    position: absolute;
-    top: 34px;
-    right: -51px;
-
-}
-.franchise_item_hint.hovered{
-    display: block;
-    @media (max-width: 900px) {
-        display: none;
     }
 }
 .franchise_item .bottom_area .left-info span {
@@ -520,13 +454,23 @@ span.stocks__advantages-item-p5 {
     font-size: 15px;
     font-weight: 600;
 }
-
+.franchise_item_hint{
+    display: none;
+    position: absolute;
+    top: 34px;
+    right: -51px;
+}
+.franchise_item_hint.hovered{
+    display: block;
+    @media (max-width: 900px) {
+        display: none;
+    }
+}
 .franchise_item .name {
     width: 100%;
     color: #242731;
     font-size: 20px;
     line-height: normal;
-    overflow: hidden;
     margin-bottom: 13px;
     display: inline-block;
     text-align: left;
@@ -534,28 +478,22 @@ span.stocks__advantages-item-p5 {
         font-size: 18px;
         margin-bottom: 8px;
     }
-
-}
-.invest{
-    font-size: 18px;
-
 }
 .franchise_item__button{
-    line-height: normal;
-    text-align: center;
     display: flex;
     padding: 10px;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
     gap: 10px;
-    border-radius: 8px;
-    background: linear-gradient(180deg, #DEF 0%, #C8E1F8 100%);
-    border: none;
+    line-height: normal;
+    text-align: center;
+    text-decoration: none;
     color: #4582EF;
     font-size: 17px;
     font-weight: 600;
-    line-height: normal;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #DEF 0%, #C8E1F8 100%);
+    border: none;
     @media (max-width: 700px) {
         width: 100%;
     }
@@ -568,19 +506,19 @@ span.stocks__advantages-item-p5 {
     background: linear-gradient(180deg, #E5F3FF 0%, #CEE7FF 100%);
     box-shadow: 0 4px 10px 0 rgba(67, 175, 253, 0.17);
 }
-
 .franchise_item .bottom_area span.left-info-pink{
     color: #C055B9;
     font-size: 15px;
     font-weight: 600;
 }
 
+/*----------------SECTION INFO---------------*/
+
 .section-info{
     padding: 50px 0;
     @media (max-width: 1050px) {
         display: none;
     }
-
 }
 .info-wrapp{
     display: flex;
@@ -592,6 +530,7 @@ span.stocks__advantages-item-p5 {
     background-repeat: no-repeat;
 }
 .info_head{
+    margin-bottom: 23px;
     font-size: 40px;
     font-weight: 700;
     background:  linear-gradient(90deg, #0000B1 -12.12%, #4B4CFA 110.61%);
@@ -599,14 +538,13 @@ span.stocks__advantages-item-p5 {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 23px;
 }
 .info_p{
+    margin-bottom: 25px;
+    max-width: 619px;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    max-width: 619px;
-    margin-bottom: 25px;
     line-height: normal;
 }
 .info_list{
@@ -627,6 +565,9 @@ span.stocks__advantages-item-p5 {
     height: 100%;
     background-color: #C2C9FF;
 }
+
+/*----------------SECTION ACTIONS---------------*/
+
 .sections-actions{
     padding-bottom:70px ;
 }
@@ -640,17 +581,15 @@ span.stocks__advantages-item-p5 {
     }
 }
 .actions_block{
-    border-radius: 8px;
-    padding: 30px 70px 40px 28px;
-
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: start;
+    border-radius: 8px;
+    padding: 30px 70px 40px 28px;
+    background-repeat: no-repeat;
+    background-size: cover;
     @media (max-width: 1060px) {
         background-position-y:center;
-
     }
     @media (max-width: 600px) {
         padding: 16px;
@@ -661,11 +600,16 @@ span.stocks__advantages-item-p5 {
     background-position-x: center;
     @media (max-width: 600px) {
         grid-row: 4/5;
-
     }
 }
 .actions_block.item2{
     background-image: url("./img/bgAction2.jpg");
+}
+.actions_block.item2 .actions_head{
+    @media (max-width: 600px) {
+        font-size: 18px;
+        max-width: 180px;
+    }
 }
 .actions_head{
     font-size: 32px;
@@ -678,13 +622,6 @@ span.stocks__advantages-item-p5 {
     @media (max-width: 600px) {
         font-size: 20px;
     }
-
-}
-.actions_block.item2 .actions_head{
-    @media (max-width: 600px) {
-        font-size: 18px;
-        max-width: 180px;
-    }
 }
 .actions_p{
     color: #EB6124;
@@ -696,25 +633,22 @@ span.stocks__advantages-item-p5 {
     @media (max-width: 600px) {
         font-size: 18px;
         margin-bottom: 4px;
-
     }
 }
 .actions_list{
+    margin-bottom: 33px;
+    padding-left: 17px;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     list-style-type: disc;
     color: #023D7F;
-    margin-bottom: 33px;
-    padding-left: 17px;
     @media (max-width: 600px) {
         font-size: 16px;
         margin-bottom: 17px;
-
     }
 }
-
 .actions_button{
     text-align: center;
     border-radius: 8px;
@@ -738,7 +672,7 @@ span.stocks__advantages-item-p5 {
 }
 .actions_button:hover{
     background: linear-gradient(180deg, #FF905F 0%, #FC7337 100%);
-    box-shadow: 0px 4px 8px 0px rgba(221, 95, 41, 0.25);
+    box-shadow: 0 4px 8px 0 rgba(221, 95, 41, 0.25);
 }
 .actions_p_item2 {
     color: #023D7F;
@@ -755,6 +689,7 @@ span.stocks__advantages-item-p5 {
     }
 }
 
+/*----------------POPUP---------------*/
 .overlay {
     top: 0;
     right: 0;
@@ -787,7 +722,7 @@ span.stocks__advantages-item-p5 {
     margin: 0 auto;
     width: 90%;
     min-width: 280px;
-    max-width: 424px;
+    max-width: 491px;
     position: fixed;
     padding: 24px 30px 30px;
     border: 1px solid #383838;
@@ -800,7 +735,7 @@ span.stocks__advantages-item-p5 {
     -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
     -ms-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
     -o-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
     opacity: 0;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
@@ -808,7 +743,7 @@ span.stocks__advantages-item-p5 {
     -o-transition: all ease .5s;
     transition: all ease .5s;
     @media (max-width: 700px) {
-       padding: 16px ;
+       padding: 28px 16px 16px ;
     }
 }
 .overlay:target+.popup {
@@ -838,19 +773,15 @@ span.stocks__advantages-item-p5 {
     @media (max-width: 700px) {
         top: 12px;
         right: 12px;
-
     }
 }
-
 .close:hover {
-    background-color: rgba(252, 20, 0, 0.8);
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
     transform: rotate(360deg);
 }
-
 .popup-head{
     color:  #242731;
     text-align: center;
@@ -860,12 +791,8 @@ span.stocks__advantages-item-p5 {
     line-height: 130%;
     margin-bottom: 16px;
     @media (max-width: 700px) {
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 14px;
-        max-width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-
     }
 }
 .popup__form{
@@ -873,36 +800,30 @@ span.stocks__advantages-item-p5 {
     flex-direction: column;
     align-items: stretch;
     gap: 10px;
-
 }
 .popup__form-input{
-
     padding: 10px 16px;
     border-radius: 8px;
     background: #F1F2F3;
     border: none;
     height: 45px;
     @media (max-width: 426px) {
-        height: 49px;
         padding: 5px 16px;
     }
-
-}
-.popup__form input:focus-visible, .popup__form-input:focus-visible{
-    outline: none;
 }
 .popup__form-input::placeholder{
     color: #8C8C8C;
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
-    font-family: Source Sans Pro;
     @media (max-width: 700px) {
         font-size: 16px;
     }
-
 }
-.popup__form-input.wrapp__input{
+.popup__form input:focus-visible,.popup__form-select:focus-visible, .popup__form-input:focus-visible,.popup__form-input select:focus-visible{
+    outline: none;
+}
+.popup__form-input.wrapp__select{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -921,7 +842,9 @@ span.stocks__advantages-item-p5 {
     background: linear-gradient(180deg, #1ACEEE 0%, #00A9C7 100%);
     color: #fff;
     margin-top:18px ;
-
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
 }
 .popup__form__button:hover{
     background: linear-gradient(180deg, #22D5F5 0%, #01BBDB 100%);
@@ -929,17 +852,47 @@ span.stocks__advantages-item-p5 {
 .popup__form__button:active{
     background: #0EB1CE;
 }
-.popup__form-input-city{
+.wrapp__select{
+    position: relative;
+}
+.wrapp__select::before {
+    content: "Изменить";
+    position: absolute;
+    top: 30%;
+    right: 16px;
+    text-align: center;
+    font-size: 16px;
+    color: #6D9DF3;
+    pointer-events: none;
+}
+.wrapp__select:hover::before{
+    color: #2b73f8;
+}
+.popup__form-select{
     border: none;
     background: #F1F2F3;
-
+    padding: 0;
+    font-size: 17px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
 }
-.popup__form-input-city::placeholder{
+.popup__form-select::placeholder{
     color: #8C8C8C;
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
-
+}
+.popup__form-input.textarea{
+    font-size: 17px;
+    font-family: "Source Sans Pro", sans-serif;
+    @media (max-width: 426px) {
+        height: 54px;
+    }
+}
+.popup__form-input.textarea::placeholder{
+    font-size: 17px;
 }
 .button-form-city{
     border: none;
@@ -950,12 +903,10 @@ span.stocks__advantages-item-p5 {
     font-style: normal;
     @media (max-width: 700px) {
         display: none;
-
     }
 }
 .button-form-city:hover{
     color:  #256AE4;
-
 }
 .popup__form-input.wrapp__input__phone{
     margin: 0;
@@ -965,9 +916,7 @@ span.stocks__advantages-item-p5 {
 .wrapp__input__phone select, .wrapp__input__phone input{
     border: none;
     background: none;
-
 }
-
 .popup__wrapp__p{
     display: flex;
     flex-direction: row;
@@ -975,23 +924,22 @@ span.stocks__advantages-item-p5 {
     margin-top: 28px;
     color: #656565;
     font-size: 14px;
-    line-height: 17.6px;
+    line-height: 18px;
     @media (max-width: 700px) {
         margin-top: 18px;
         font-size: 13px;
-        line-height: 16.6px;
-
+        line-height: 17px;
     }
-
 }
 .popup__wrapp__p .svg_popup{
     min-width: 18px;
-
 }
 
+/*----------------POPUP-SUCCESS---------------*/
+
 .popup.popup-success{
-    padding: 16px;
-    padding-bottom: 6px;
+    padding: 16px 16px 6px;
+    max-width: 424px;
     @media (max-width: 500px) {
         padding-bottom: 16px;
     }
@@ -1011,10 +959,8 @@ span.stocks__advantages-item-p5 {
         padding: 9px 16px 7px;
         background-image: url("./img/bg-popup-mob.jpg");
         background-position-y: 0;
-
     }
 }
-
 .popup-success-head{
     text-align: center;
     font-size: 22px;
@@ -1038,7 +984,6 @@ span.stocks__advantages-item-p5 {
         font-size: 14px;
         margin-bottom: 7px;
         text-align: center;
-
     }
 }
 .wrapp-icon{
@@ -1054,7 +999,6 @@ span.stocks__advantages-item-p5 {
         align-items: center;
         justify-content: center;
         gap: 4px;
-
     }
 }
 .popup-wrapp-bottom p{
