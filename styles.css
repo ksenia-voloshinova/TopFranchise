@@ -490,7 +490,7 @@ span.stocks__advantages-item-p5 {
     display: inline-block;
     text-align: left;
     @media (max-width: 700px) {
-        font-size: 17px;
+        font-size: 18px;
         margin-bottom: 8px;
         font-weight: 600;
     }
