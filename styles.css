@@ -210,11 +210,15 @@ span.stocks__advantages-item-p5 {
     flex-direction: column;
     gap: 32px;
     @media (max-width: 1060px) {
+        flex-direction: row;
         gap: 16px;
+    }
+    @media (max-width: 730px) {
+        flex-direction: column;
     }
 }
 .stocks__discounts-card {
-    width: 465px;
+    width: 100%;
     padding: 22px;
     border-radius: 8px;
     font-size: 24px;
@@ -223,7 +227,6 @@ span.stocks__advantages-item-p5 {
         align-self: center;
     }
     @media (max-width: 600px) {
-        width: 100%;
         padding: 16px;
         font-size: 20px;
     }
@@ -370,8 +373,9 @@ span.stocks__advantages-item-p5 {
         align-items: center;
         gap: 15px;
     }
-    @media (max-width: 770px) {
-        grid-template-columns: 1fr;
+    @media (max-width: 600px) {
+        display: flex;
+        flex-direction: column;
     }
 
 }
@@ -382,11 +386,11 @@ span.stocks__advantages-item-p5 {
     margin: auto;
     overflow: hidden;
     @media (max-width: 1050px) {
-        max-width: 365px;
+        width: 100%;
+        height: 100%;
     }
     @media (max-width: 700px) {
         max-width: 100%;
-        width: 290px;
     }
 }
 .franchise_item .photo_link {
