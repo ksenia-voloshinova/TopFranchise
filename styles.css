@@ -45,7 +45,7 @@ body {
 }
 .wrap-main-success .stocks__wrapper {
     display: grid;
-    grid-template-columns: 57% 43%;
+    grid-template-columns: 57% 40%;
     gap: 32px;
     @media (max-width: 1060px) {
         grid-template-columns: 100%;
