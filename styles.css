@@ -2,15 +2,14 @@ body {
     color: #242731;
     font-family: 'Source Sans Pro', sans-serif;
 }
-.container {
+.wrap-main-success .container {
     max-width: 1160px;
     margin: auto;
     @media (max-width: 1060px) {
         padding: 0 16px;
     }
 }
-
-.button-purple {
+.wrap-main-success .button-purple {
     display: block;
     padding: 16px 40px;
     border-radius: 8px;
@@ -29,22 +28,22 @@ body {
         width: 100%;
     }
 }
-.button-purple:hover{
+.wrap-main-success .button-purple:hover{
     background:  linear-gradient(180deg, rgba(255, 255, 255, 0.20) 0%, rgba(74, 49, 141, 0.20) 100%), linear-gradient(91deg, #C63CB2 3.87%, #194EBF 111.36%);
     box-shadow: 0 8px 16px 0 rgba(4, 0, 199, 0.50);
 }
-.button-purple:focus, .button-purple:active{
+.wrap-main-success .button-purple:focus, .button-purple:active{
     background: linear-gradient(91deg, #BC38A9 3.87%, #15409C 111.36%);
 }
 
 /*----------------SECTION STOCKS---------------*/
-.section-stocks {
+.wrap-main-success .section-stocks {
     padding: 65px 0;
     @media (max-width: 1060px) {
         padding: 15px 0;
     }
 }
-.stocks__wrapper {
+.wrap-main-success .stocks__wrapper {
     display: grid;
     grid-template-columns: 57% 43%;
     gap: 32px;
@@ -53,7 +52,7 @@ body {
         gap: 19px;
     }
 }
-.stocks__advantages-item {
+.wrap-main-success .stocks__advantages-item {
     display: flex !important;
     flex-direction: column;
     justify-content: space-between;
@@ -68,7 +67,7 @@ body {
         width: 100%;
     }
 }
-.stocks__advantages-item-heading {
+.wrap-main-success .stocks__advantages-item-heading {
     margin-bottom: 26px;
     font-size: 49px;
     font-style: normal;
@@ -79,7 +78,7 @@ body {
         margin-bottom: 5px;
     }
 }
-.stocks__advantages-item-heading span {
+.wrap-main-success .stocks__advantages-item-heading span {
     color: #4A59BE;
     font-size: 49px;
     font-style: normal;
@@ -90,7 +89,7 @@ body {
         font-size: 24px;
     }
 }
-.stocks__advantages-item-p1 {
+.wrap-main-success .stocks__advantages-item-p1 {
     margin-bottom: 16px;
     font-size: 28px;
     @media (max-width: 600px) {
@@ -98,7 +97,7 @@ body {
         font-size: 20px;
     }
 }
-.stocks__advantages-item-p2 {
+.wrap-main-success .stocks__advantages-item-p2 {
     margin-bottom: 47px;
     font-size: 24px;
     font-weight: 900;
@@ -111,7 +110,7 @@ body {
         line-height: 120%;
     }
 }
-.stocks__advantages-item2-p{
+.wrap-main-success .stocks__advantages-item2-p{
     color: #4A59BE;
     font-size: 22px;
     font-weight: 600;
@@ -122,7 +121,7 @@ body {
     }
 
 }
-.stocks__advantages-item-p4{
+.wrap-main-success .stocks__advantages-item-p4{
     margin-bottom: 38px;
     max-width: 429px;
     font-size: 22px;
@@ -134,13 +133,13 @@ body {
         line-height: 110%;
     }
 }
-span.stocks__advantages-item-p5 {
+.wrap-main-success span.stocks__advantages-item-p5 {
     margin-bottom: 0;
     @media (max-width: 600px) {
         display: none;
     }
 }
-.stocks__advantages-item-p5{
+.wrap-main-success .stocks__advantages-item-p5{
     margin-bottom: 18px;
     color: #4A59BE;
     font-size: 40px;
@@ -151,7 +150,7 @@ span.stocks__advantages-item-p5 {
         font-size: 24px;
     }
 }
-.stocks__advantages-item-p6{
+.wrap-main-success .stocks__advantages-item-p6{
     margin-bottom: 15px;
     max-width: 321px;
     font-size: 28px;
@@ -162,13 +161,13 @@ span.stocks__advantages-item-p5 {
         line-height: 110%;
     }
 }
-.stocks__advantages-item-p6 span{
+.wrap-main-success .stocks__advantages-item-p6 span{
     text-decoration-line: underline;
     @media (max-width: 600px) {
         text-decoration-line: none ;
     }
 }
-.stocks__advantages-item-p7{
+.wrap-main-success .stocks__advantages-item-p7{
     max-width: 290px;
     margin-bottom: 37px;
     font-size: 28px;
@@ -180,7 +179,7 @@ span.stocks__advantages-item-p5 {
     }
 
 }
-.stocks__advantages-item2-p.item2-p1{
+.wrap-main-success .stocks__advantages-item2-p.item2-p1{
     text-transform: uppercase;
     font-weight: 700;
     font-size: 32px;
@@ -190,7 +189,7 @@ span.stocks__advantages-item-p5 {
         line-height: 110%;
     }
 }
-.stocks__advantages-item2-p.item2-p3{
+.wrap-main-success .stocks__advantages-item2-p.item2-p3{
     font-size: 28px;
     line-height: 150%;
     font-weight: 600;
@@ -205,7 +204,7 @@ span.stocks__advantages-item-p5 {
     }
 }
 
-.stocks__discounts-cards {
+.wrap-main-success .stocks__discounts-cards {
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -217,7 +216,7 @@ span.stocks__advantages-item-p5 {
         flex-direction: column;
     }
 }
-.stocks__discounts-card {
+.wrap-main-success .stocks__discounts-card {
     width: 100%;
     padding: 22px;
     border-radius: 8px;
@@ -231,7 +230,7 @@ span.stocks__advantages-item-p5 {
         font-size: 20px;
     }
 }
-.stocks__discounts-card span{
+.wrap-main-success .stocks__discounts-card span{
     color: #D11D1D;
     font-size: 48px;
     font-weight: 700;
@@ -239,11 +238,11 @@ span.stocks__advantages-item-p5 {
         font-size: 40px;
     }
 }
-.stocks__discounts-card p{
+.wrap-main-success .stocks__discounts-card p{
    margin-bottom: 27px;
     line-height: 120%;
 }
-.stocks__discounts-card .button-purple{
+.wrap-main-success .stocks__discounts-card .button-purple{
     padding: 14px 32px;
     font-size:18px;
     @media (max-width: 600px) {
@@ -253,7 +252,7 @@ span.stocks__advantages-item-p5 {
         line-height: 100%;
     }
 }
-.stocks__advantages-item.item1 {
+.wrap-main-success .stocks__advantages-item.item1 {
     background-image: url("./img/bgItem1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -262,7 +261,7 @@ span.stocks__advantages-item-p5 {
         background-image: url("./img/bgItemMob3.jpg");
     }
 }
-.stocks__advantages-item.item2 {
+.wrap-main-success .stocks__advantages-item.item2 {
     background-image: url("./img/bgItem2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -272,7 +271,7 @@ span.stocks__advantages-item-p5 {
         background-image: url("./img/bgItemMob2.jpg");
     }
 }
-.stocks__advantages-item.item3 {
+.wrap-main-success .stocks__advantages-item.item3 {
     background-image: url("./img/bgItem3.jpg");
     background-position-y: top;
     background-repeat: no-repeat;
@@ -285,25 +284,25 @@ span.stocks__advantages-item-p5 {
         background-image: url("./img/bgItemMob1.jpg");
     }
 }
-.stocks__discounts-card.card1 {
+.wrap-main-success .stocks__discounts-card.card1 {
     background-image: url("./img/bgItem4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.stocks__discounts-card.card2 {
+.wrap-main-success .stocks__discounts-card.card2 {
     background-image: url("./img/bgItem5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 /*----------------SLIDER---------------*/
-.slick-dots {
+.wrap-main-success .slick-dots {
     display: flex;
     justify-content: center;
     text-align: center;
     list-style: none;
 }
-.slick-dots button {
+.wrap-main-success .slick-dots button {
     height: 14px;
     width: 14px;
     margin: 5px;
@@ -313,10 +312,10 @@ span.stocks__advantages-item-p5 {
     border-radius: 50%;
     outline: none;
 }
-.slick-dots li[class="slick-active"] button {
+.wrap-main-success .slick-dots li[class="slick-active"] button {
     background: #AF99CC;
 }
-.slider .slick-arrow{
+.wrap-main-success .slider .slick-arrow{
     position: absolute;
     top: 50%;
     margin: -15px 0 0 0;
@@ -325,10 +324,10 @@ span.stocks__advantages-item-p5 {
     width: 30px;
     height: 30px;
 }
-.slick-slide{
+.wrap-main-success .slick-slide{
     display: flex;
 }
-.next-btn {
+.wrap-main-success .next-btn {
     position: absolute;
     top: 50%;
     right: 7px;
@@ -349,10 +348,10 @@ span.stocks__advantages-item-p5 {
         height: 32px;
     }
 }
-.next-btn:hover {
+.wrap-main-success .next-btn:hover {
     background: #fff;
 }
-.next-btn img{
+.wrap-main-success .next-btn img{
     @media (max-width: 600px) {
         width: 12px;
         height: 12px;
@@ -361,7 +360,7 @@ span.stocks__advantages-item-p5 {
 
 /*----------------SECTION FRANCHISES---------------*/
 
-.franchises-wrapper{
+.wrap-main-success .franchises-wrapper{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -379,7 +378,7 @@ span.stocks__advantages-item-p5 {
     }
 
 }
-.franchise_item {
+.wrap-main-success .franchise_item {
     background-color: #fff;
     box-shadow: 0 8px 16px 0 rgba(44, 35, 99, 0.06);
     border-radius: 8px;
@@ -393,7 +392,7 @@ span.stocks__advantages-item-p5 {
         max-width: 100%;
     }
 }
-.franchise_item .photo_link {
+.wrap-main-success .franchise_item .photo_link {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -401,24 +400,24 @@ span.stocks__advantages-item-p5 {
     border-top-left-radius:  8px;
     border-top-right-radius:  8px;
 }
-.franchise_item .photo{
+.wrap-main-success .franchise_item .photo{
     width: 100%;
 }
-.franchise_item .text_cont {
+.wrap-main-success .franchise_item .text_cont {
     width: 100%;
     padding: 15px;
     @media (max-width: 700px) {
         padding-bottom: 22px;
     }
 }
-.franchise_item .link_text {
+.wrap-main-success .franchise_item .link_text {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     text-decoration: none;
 }
-.franchise_item .bottom_area {
+.wrap-main-success .franchise_item .bottom_area {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -429,26 +428,26 @@ span.stocks__advantages-item-p5 {
         gap: 14px;
     }
 }
-.franchise_item .bottom_area .left-wrapp {
+.wrap-main-success .franchise_item .bottom_area .left-wrapp {
     display: flex;
     flex-direction: column;
     align-items: start;
 }
-.franchise_item .bottom_area .left-info {
+.wrap-main-success .franchise_item .bottom_area .left-info {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-bottom: 8px;
 }
-.invest{
+.wrap-main-success .invest{
     font-size: 18px;
     font-weight: 600;
     @media (max-width: 700px) {
         font-size: 16px;
     }
 }
-.franchise_item .bottom_area .right {
+.wrap-main-success .franchise_item .bottom_area .right {
     position: relative;
     justify-content: end;
     gap: 10px;
@@ -458,30 +457,30 @@ span.stocks__advantages-item-p5 {
         max-width: 100%;
     }
 }
-.franchise_item .bottom_area .left-info span {
+.wrap-main-success .franchise_item .bottom_area .left-info span {
     color: #686868;
     font-size: 15px;
     text-transform: uppercase;
     margin-right: 6px;
 }
-.franchise_item .bottom_area span.left-info-blue{
+.wrap-main-success .franchise_item .bottom_area span.left-info-blue{
     color: #3586CF;
     font-size: 15px;
     font-weight: 600;
 }
-.franchise_item_hint{
+.wrap-main-success .franchise_item_hint{
     display: none;
     position: absolute;
     top: 34px;
     right: -51px;
 }
-.franchise_item_hint.hovered{
+.wrap-main-success .franchise_item_hint.hovered{
     display: block;
     @media (max-width: 900px) {
         display: none;
     }
 }
-.franchise_item .name {
+.wrap-main-success .franchise_item .name {
     width: 100%;
     color: #242731;
     font-size: 20px;
@@ -495,7 +494,7 @@ span.stocks__advantages-item-p5 {
         font-weight: 600;
     }
 }
-.franchise_item__button{
+.wrap-main-success .franchise_item__button{
     display: flex;
     padding: 10px;
     justify-content: center;
@@ -514,15 +513,15 @@ span.stocks__advantages-item-p5 {
         width: 100%;
     }
 }
-.franchise_item__button:focus, .franchise_item__button:active{
+.wrap-main-success .franchise_item__button:focus, .franchise_item__button:active{
     background: #B3DAFF;
 }
-.franchise_item__button:hover{
+.wrap-main-success .franchise_item__button:hover{
     border-radius: 8px;
     background: linear-gradient(180deg, #E5F3FF 0%, #CEE7FF 100%);
     box-shadow: 0 4px 10px 0 rgba(67, 175, 253, 0.17);
 }
-.franchise_item .bottom_area span.left-info-pink{
+.wrap-main-success .franchise_item .bottom_area span.left-info-pink{
     color: #C055B9;
     font-size: 15px;
     font-weight: 600;
@@ -530,13 +529,13 @@ span.stocks__advantages-item-p5 {
 
 /*----------------SECTION INFO---------------*/
 
-.section-info{
+.wrap-main-success .section-info{
     padding: 50px 0;
     @media (max-width: 1050px) {
         display: none;
     }
 }
-.info-wrapp{
+.wrap-main-success .info-wrapp{
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -545,7 +544,7 @@ span.stocks__advantages-item-p5 {
     background-image: url("./img/franchise-info.png");
     background-repeat: no-repeat;
 }
-.info_head{
+.wrap-main-success .info_head{
     margin-bottom: 23px;
     font-size: 40px;
     font-weight: 700;
@@ -555,7 +554,7 @@ span.stocks__advantages-item-p5 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.info_p{
+.wrap-main-success .info_p{
     margin-bottom: 25px;
     max-width: 619px;
     font-size: 20px;
@@ -563,16 +562,16 @@ span.stocks__advantages-item-p5 {
     font-weight: 400;
     line-height: normal;
 }
-.info_list{
+.wrap-main-success .info_list{
     max-width: 465px;
     padding-left: 17px;
 }
-.info_list_item{
+.wrap-main-success .info_list_item{
     margin-bottom: 16px;
     position: relative;
     line-height: normal;
 }
-.info_list_item::before {
+.wrap-main-success .info_list_item::before {
     content: "";
     position: absolute;
     top: 0;
@@ -584,10 +583,10 @@ span.stocks__advantages-item-p5 {
 
 /*----------------SECTION ACTIONS---------------*/
 
-.sections-actions{
+.wrap-main-success .sections-actions{
     padding-bottom:70px ;
 }
-.actions_wrapp_blocks{
+.wrap-main-success .actions_wrapp_blocks{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
@@ -596,7 +595,7 @@ span.stocks__advantages-item-p5 {
         gap: 15px;
     }
 }
-.actions_block{
+.wrap-main-success .actions_block{
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -611,23 +610,23 @@ span.stocks__advantages-item-p5 {
         padding: 16px;
     }
 }
-.actions_block.item1{
+.wrap-main-success .actions_block.item1{
     background-image: url("./img/bgAction1.jpg");
     background-position-x: center;
     @media (max-width: 600px) {
         grid-row: 4/5;
     }
 }
-.actions_block.item2{
+.wrap-main-success .actions_block.item2{
     background-image: url("./img/bgAction2.jpg");
 }
-.actions_block.item2 .actions_head{
+.wrap-main-success .actions_block.item2 .actions_head{
     @media (max-width: 600px) {
         font-size: 18px;
         max-width: 180px;
     }
 }
-.actions_head{
+.wrap-main-success .actions_head{
     font-size: 32px;
     font-style: normal;
     font-weight: 900;
@@ -639,7 +638,7 @@ span.stocks__advantages-item-p5 {
         font-size: 20px;
     }
 }
-.actions_p{
+.wrap-main-success .actions_p{
     color: #EB6124;
     font-size: 22px;
     font-style: normal;
@@ -651,7 +650,7 @@ span.stocks__advantages-item-p5 {
         margin-bottom: 4px;
     }
 }
-.actions_list{
+.wrap-main-success .actions_list{
     margin-bottom: 33px;
     padding-left: 17px;
     font-size: 18px;
@@ -665,7 +664,7 @@ span.stocks__advantages-item-p5 {
         margin-bottom: 17px;
     }
 }
-.actions_button{
+.wrap-main-success .actions_button{
     text-align: center;
     border-radius: 8px;
     background:  linear-gradient(180deg, #FA7439 0%, #EB6124 100%);
@@ -683,14 +682,14 @@ span.stocks__advantages-item-p5 {
     }
 
 }
-.actions_button:focus, actions_button:active{
+.wrap-main-success .actions_button:focus, actions_button:active{
     background: #EB520F;
 }
-.actions_button:hover{
+.wrap-main-success .actions_button:hover{
     background: linear-gradient(180deg, #FF905F 0%, #FC7337 100%);
     box-shadow: 0 4px 8px 0 rgba(221, 95, 41, 0.25);
 }
-.actions_p_item2 {
+.wrap-main-success .actions_p_item2 {
     color: #023D7F;
     font-size: 24px;
     font-style: normal;
@@ -706,7 +705,7 @@ span.stocks__advantages-item-p5 {
 }
 
 /*----------------POPUP---------------*/
-.overlay {
+.wrap-main-success .overlay {
     top: 0;
     right: 0;
     bottom: 0;
@@ -723,11 +722,11 @@ span.stocks__advantages-item-p5 {
     -o-transition: opacity .5s;
     transition: opacity .5s;
 }
-.overlay:target {
+.wrap-main-success .overlay:target {
     visibility: visible;
     opacity: 1;
 }
-.popup {
+.wrap-main-success .popup {
     top: 0;
     right: 0;
     left: 0;
@@ -762,7 +761,7 @@ span.stocks__advantages-item-p5 {
        padding: 28px 16px 16px ;
     }
 }
-.overlay:target+.popup {
+.wrap-main-success .overlay:target+.popup {
     top: 20%;
     visibility: visible;
     opacity: 1;
@@ -770,7 +769,7 @@ span.stocks__advantages-item-p5 {
         top: 11%;
     }
 }
-.close {
+.wrap-main-success .close {
     position: absolute;
     top: 16px;
     right: 16px;
@@ -791,14 +790,14 @@ span.stocks__advantages-item-p5 {
         right: 12px;
     }
 }
-.close:hover {
+.wrap-main-success .close:hover {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
     transform: rotate(360deg);
 }
-.popup-head{
+.wrap-main-success .popup-head{
     color:  #242731;
     text-align: center;
     font-size: 24px;
@@ -811,13 +810,13 @@ span.stocks__advantages-item-p5 {
         margin-bottom: 14px;
     }
 }
-.popup__form{
+.wrap-main-success .popup__form{
     display: flex;
     flex-direction: column;
     align-items: stretch;
     gap: 10px;
 }
-.popup__form-input{
+.wrap-main-success .popup__form-input{
     padding: 10px 16px;
     border-radius: 8px;
     background: #F1F2F3;
@@ -827,7 +826,7 @@ span.stocks__advantages-item-p5 {
         padding: 5px 16px;
     }
 }
-.popup__form-input::placeholder{
+.wrap-main-success .popup__form-input::placeholder{
     color: #8C8C8C;
     font-size: 17px;
     font-style: normal;
@@ -836,16 +835,16 @@ span.stocks__advantages-item-p5 {
         font-size: 16px;
     }
 }
-.popup__form input:focus-visible,.popup__form-select:focus-visible, .popup__form-input:focus-visible,.popup__form-input select:focus-visible{
+.wrap-main-success .popup__form input:focus-visible,.popup__form-select:focus-visible, .popup__form-input:focus-visible,.popup__form-input select:focus-visible{
     outline: none;
 }
-.popup__form-input.wrapp__select{
+.wrap-main-success .popup__form-input.wrapp__select{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 0;
 }
-.popup__form__button{
+.wrap-main-success .popup__form__button{
     align-self: center;
     display: flex;
     flex-direction: row;
@@ -862,16 +861,16 @@ span.stocks__advantages-item-p5 {
     font-size: 17px;
     font-weight: 600;
 }
-.popup__form__button:hover{
+.wrap-main-success .popup__form__button:hover{
     background: linear-gradient(180deg, #22D5F5 0%, #01BBDB 100%);
 }
-.popup__form__button:active{
+.wrap-main-success .popup__form__button:active{
     background: #0EB1CE;
 }
-.wrapp__select{
+.wrap-main-success .wrapp__select{
     position: relative;
 }
-.wrapp__select::before {
+.wrap-main-success .wrapp__select::before {
     content: "Изменить";
     position: absolute;
     top: 30%;
@@ -881,10 +880,10 @@ span.stocks__advantages-item-p5 {
     color: #6D9DF3;
     pointer-events: none;
 }
-.wrapp__select:hover::before{
+.wrap-main-success .wrapp__select:hover::before{
     color: #2b73f8;
 }
-.popup__form-select{
+.wrap-main-success .popup__form-select{
     border: none;
     background: #F1F2F3;
     padding: 0;
@@ -894,23 +893,23 @@ span.stocks__advantages-item-p5 {
     appearance: none;
     width: 100%;
 }
-.popup__form-select::placeholder{
+.wrap-main-success .popup__form-select::placeholder{
     color: #8C8C8C;
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
 }
-.popup__form-input.textarea{
+.wrap-main-success .popup__form-input.textarea{
     font-size: 17px;
     font-family: "Source Sans Pro", sans-serif;
     @media (max-width: 426px) {
         height: 54px;
     }
 }
-.popup__form-input.textarea::placeholder{
+.wrap-main-success .popup__form-input.textarea::placeholder{
     font-size: 17px;
 }
-.button-form-city{
+.wrap-main-success .button-form-city{
     border: none;
     background: none;
     color:  #6D9DF3;
@@ -921,19 +920,19 @@ span.stocks__advantages-item-p5 {
         display: none;
     }
 }
-.button-form-city:hover{
+.wrap-main-success .button-form-city:hover{
     color:  #256AE4;
 }
-.popup__form-input.wrapp__input__phone{
+.wrap-main-success .popup__form-input.wrapp__input__phone{
     margin: 0;
     display: flex;
     flex-direction: row;
 }
-.wrapp__input__phone select, .wrapp__input__phone input{
+.wrap-main-success .wrapp__input__phone select, .wrapp__input__phone input{
     border: none;
     background: none;
 }
-.popup__wrapp__p{
+.wrap-main-success .popup__wrapp__p{
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -947,20 +946,20 @@ span.stocks__advantages-item-p5 {
         line-height: 17px;
     }
 }
-.popup__wrapp__p .svg_popup{
+.wrap-main-success .popup__wrapp__p .svg_popup{
     min-width: 18px;
 }
 
 /*----------------POPUP-SUCCESS---------------*/
 
-.popup.popup-success{
+.wrap-main-success .popup.popup-success{
     padding: 16px 16px 6px;
     max-width: 424px;
     @media (max-width: 500px) {
         padding-bottom: 16px;
     }
 }
-.popup_bg{
+.wrap-main-success .popup_bg{
     border-radius:8px ;
     background-image: url("./img/bg-popup.jpg");
     background-repeat: no-repeat;
@@ -977,7 +976,7 @@ span.stocks__advantages-item-p5 {
         background-position-y: 0;
     }
 }
-.popup-success-head{
+.wrap-main-success .popup-success-head{
     text-align: center;
     font-size: 22px;
     font-weight: 600;
@@ -986,12 +985,12 @@ span.stocks__advantages-item-p5 {
         font-size: 17px;
     }
 }
-.popup-success-head span{
+.wrap-main-success .pop.wrap-main-success up-success-head span{
     @media (max-width: 500px) {
         display: block
     }
 }
-.popup-success-content p{
+.wrap-main-success .popup-success-content p{
     font-size: 16px;
     font-weight: 400;
     line-height: 120%;
@@ -1002,12 +1001,12 @@ span.stocks__advantages-item-p5 {
         text-align: center;
     }
 }
-.wrapp-icon{
+.wrap-main-success .wrapp-icon{
     display: flex;
     flex-direction: row;
     gap: 9px;
 }
-.popup-wrapp-bottom{
+.wrap-main-success .popup-wrapp-bottom{
     display: flex;
     gap: 17px;
     @media (max-width: 700px) {
@@ -1017,7 +1016,7 @@ span.stocks__advantages-item-p5 {
         gap: 4px;
     }
 }
-.popup-wrapp-bottom p{
+.wrap-main-success .popup-wrapp-bottom p{
     color: #7F828C;
     font-size: 16px;
     font-weight: 400;
